@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yutakastep/portfolio-website/issues"
   },
-  "homepage": "https://github.com/yutakastep/portfolio-website#readme"
+  "homepage": "https://github.com/yutakastep/portfolio-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
