@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Personal portfolio website built with HTML, CSS, JavaScript, Node.js, and Express. This project showcases my background, technical skills, and software development projects while serving as a platform to continue learning full-stack web development.
+Personal portfolio website built with HTML, CSS, JavaScript, Node.js, and Express. Showcases my background, technical skills, and projects while future improvements help me continue learning full-stack web development.
 
 ## Tech Stack
 
@@ -45,18 +45,11 @@ http://localhost:3000
 
 - Responsive desktop and mobile layouts
 - Project showcase section
-- Contact form with Express backend endpoint
 - Custom navigation and UI components
 
 ## Future Improvements
 
+- Contact form with Express backend endpoint
 - Connect the contact form to an email service
 - Replace placeholder projects with completed work and live demos
 - Improve styling, animations, and overall user experience
-
-## Author
-
-**Yutaka Stephens**
-
-- GitHub: https://github.com/yutakastep
-- LinkedIn: https://www.linkedin.com/in/yutaka-stephens/
