@@ -20,6 +20,13 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #fafafa;
     color: #222;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f8fafc 0%,
+            #eef4ff 100%
+        );
 }
 
 html {
@@ -45,7 +52,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 12vh;
 }
 
 .nav-links {
@@ -103,7 +110,7 @@ a {
     display: none;
 }
 
-/* #desktop-nav,
+#desktop-nav,
 #hamburger-nav {
     position: sticky;
     top: 0;
@@ -111,7 +118,7 @@ a {
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid var(--border);
-} */
+}
 
 .hamburger-menu {
     position: relative;
@@ -214,6 +221,13 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+
+    /* background:
+        radial-gradient(circle at bottom right,
+        rgba(37,99,235,.15),
+        transparent 40%);
+
+    border-radius: 2rem; */
 }
 
 .section__pic {
@@ -229,6 +243,17 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    position: relative;
+}
+
+.section__pic-container::before {
+    content: "";
+    position: absolute;
+    inset: -15px;
+    background: #2563eb;
+    opacity: .05;
+    border-radius: 50%;
+    z-index: -1;
 }
 
 .section__text {
@@ -492,7 +517,7 @@ article .icon {
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
+    background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -501,7 +526,7 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5 rem;
+    gap: 0.5rem;
     margin: 1rem;
 }
 
